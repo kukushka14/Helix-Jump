@@ -625,6 +625,8 @@ MonoBehaviour:
   score: 0
   ScoreText: {fileID: 1301849591}
   RecordText: {fileID: 1301849591}
+  bounceAudio: {fileID: 0}
+  breakAudio: {fileID: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -722,7 +724,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79aa02a272914b34c90dea0caccb14ec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 0}
+  player: {fileID: 0}
   PlatformToCameraOffset: {x: 0, y: 6.63, z: -17.2}
   Speed: 25
 --- !u!1001 &1019909647
@@ -819,7 +821,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1169913994
 AudioSource:
   m_ObjectHideFlags: 0
